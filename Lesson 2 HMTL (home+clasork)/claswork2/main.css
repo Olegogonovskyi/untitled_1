@@ -1,0 +1,16 @@
+.a {
+    height: 200px;
+    width: 400px;
+    background: rgb(128,128,128);
+    margin: 100px 0px 15px 0px;
+    box-shadow: #d7bb96 -20px -30px 30px 2px;;
+}
+/*.b {*/
+/*    background: rgba(0,0,0,0);*/
+/*}*/
+
+p {
+    border-left: 5px solid rgb(254,0,2);
+    margin: 0px;
+    padding: 2px 20px;
+}
