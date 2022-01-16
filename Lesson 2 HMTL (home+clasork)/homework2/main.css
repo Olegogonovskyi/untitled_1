@@ -11,5 +11,18 @@ h1 {
     padding: 20px;
 }
 .c {
+background: #6395ec;
+    padding: 50px 0px ;
+}
+.d {
+    width: 200px;
+    height: 200px;
+    background: #6bba67;
+}
+.i {
+    width: 200px;
+    height: 200px;
+    background: #8886ab;
+    border-radius: 20px;
 
 }
