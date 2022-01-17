@@ -1,0 +1,22 @@
+.widgets, .contact, .big_widgets, .bigger_widgets, .huge_widgets {
+    margin: 10px;
+    box-sizing: border-box;
+    background: #6395ec;
+}
+.widgets, .big_widgets, .bigger_widgets, .huge_widgets {
+    height: 200px;
+}
+.widgets, .contact {
+background: #8886ab;
+}
+
+.many_widgets {
+    display: flex;
+}
+.big_widgets, .bigger_widgets, .huge_widgets {
+    width: 33%;
+}
+
+.contact {
+    height: 500px;
+}
