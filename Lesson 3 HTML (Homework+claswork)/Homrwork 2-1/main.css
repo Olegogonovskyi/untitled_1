@@ -1,0 +1,29 @@
+#header, #menu, .post, #footer {
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 10px;
+}
+#header, #footer {
+    height: 100px;
+    background: #d7bb96;
+}
+
+.warp {
+        height: 500px;
+    display: flex;
+    }
+
+#menu {
+    width: 20%;
+    background: coral;
+}
+
+.posts {
+width: 80%;
+    display: block;
+}
+
+.post {
+    height: 47%;
+    background: #6395ec;
+}
