@@ -120,9 +120,20 @@ img {
 .footer_cont {
     display: block;
        justify-content: center;
+    width: 25%;
 
 }
-
+.footer_soc {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.footer_soc_one {
+    background: #4f4f4f;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 .footer_cont > p {
-
+    text-align: center;
 }
