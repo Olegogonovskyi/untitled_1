@@ -8,7 +8,6 @@ body {
 }
 .right, .left {
     width: 40%;
-    background: #313335;
     box-sizing: border-box;
     display: block;
     align-self: center;
@@ -23,11 +22,13 @@ body {
 
 }
 i {
-    height: 200px;
-    margin:10px;
-
+    font-size: 80px;
+    margin: 10px;
+h4 {
+    margin: 0;
+    bottom: 0;
+}
 }
 .text {
-    margin: 20px;
-
+    margin: 10px;
 }
