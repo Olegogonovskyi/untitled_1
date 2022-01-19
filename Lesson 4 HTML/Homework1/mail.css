@@ -4,6 +4,7 @@
 .block {
     display: block;
     border: 2px solid blue;
+    width: 600px;
 }
 .background {
     background: #d8d8d8;
@@ -15,15 +16,15 @@
 .height200 {
     height: 200px;
 }
-.width300 {
-    width: 300px;
+.width1_3 {
+    width: 33.3%;
 }
-.width150 {
-    width: 150px;
+.width2_3 {
+    width: 66.6%;
 }
 .border-radius {
     border-radius: 5px;
     box-sizing: border-box;
     margin: 10px;
 }
-.with500 {}
+
