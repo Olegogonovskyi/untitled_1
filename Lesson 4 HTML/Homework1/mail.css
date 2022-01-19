@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+    border: 2px solid blue;
+}
+.background {
+    background: #d8d8d8;
+    margin: 10px;
+}
+.height600 {
+    height: 600px;
+}
+.height200 {
+    height: 200px;
+}
+.width300 {
+    width: 300px;
+}
+.width150 {
+    width: 150px;
+}
+.border-radius {
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+.with500 {}
