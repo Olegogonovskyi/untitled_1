@@ -1,0 +1,27 @@
+.same {
+    margin: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+    width: 66.7%;
+}
+.header_footer {
+    background: #e6f7b0;
+    height: 200px;
+
+}
+.post {
+    height: 400px;
+    background: #9ee1fe;
+
+}
+.menu {
+    width: 33.3%;
+    background: #ffb7ff
+
+}
