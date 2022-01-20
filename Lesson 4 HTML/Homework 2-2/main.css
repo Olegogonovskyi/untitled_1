@@ -1,3 +1,34 @@
+body {
+    background: #4d2525;
+}
 .height {
-    height: 25%;
+    height: 50%;
+}
+.height400 {
+    height: 400px;
+
+}
+.block {
+    display: block;
+}
+.flex {
+    display: flex;
+}
+.blue {
+    background: #1c395d;
+    }
+.darkBlue {
+    background: #2269bb;
+    width: 33.3%;
+}
+.margin {
+    margin: 20px;
+}
+.width {
+    width: 800px;
+    column-gap: 20px;
+
+}
+.box-sizing {
+    box-sizing: border-box;
 }
