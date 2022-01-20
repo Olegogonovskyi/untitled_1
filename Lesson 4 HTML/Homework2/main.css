@@ -1,0 +1,44 @@
+body {
+    display: block;
+}
+body > div {
+    background: #6bba67;
+}
+
+body:nth-child(1) {
+    display: block;
+    flex-direction: column;
+}
+
+.height150 {
+    height: 150px;
+}
+.height200 {
+    height: 200px;
+}
+.width {
+    width: 500px;
+}
+ .blue {
+     background: #0c65a7;
+ }
+ .darkBlue {
+     background: #124b78;
+ }
+ .width75 {
+  width: 75%;
+     background: #16a2c5;
+ }
+.width25 {
+    width: 25%;
+    background: #5275ac;
+}
+.width75, .width25 {
+    height: 400px;
+}
+.flex {
+    display: flex;
+}
+.light {
+    background: #7ccce3;
+}
