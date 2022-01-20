@@ -1,9 +1,9 @@
 .height {
     height: 50%;
 }
-.height400 {
+body > div {
     height: 400px;
-
+}
 }
 .block {
     display: block;
