@@ -1,10 +1,11 @@
 body {
     margin: 0px;
+    font-size: large;
+    text-align: center;
 }
 .warp, .naw_store_tools,.sel_info_types,.ad_prod {
     display: block;
     }
-
 .logo,.header,.naw,.store,.tools,.sel_info,.types,.ad,.prod,.footer {
     background: #676767;
     margin-bottom: 10px;
@@ -39,11 +40,40 @@ body {
 .footer {
     width: 100%;
 }
+#disp_desk {
+    display: none;
+}
 
 @media screen and (min-width: 0px) and (max-width: 992px) {
     .log_header {
         column-gap: 1px;
     }
+    #disp_desk, .center,.sel_info_types {
+        display: block;
+        box-sizing: border-box;
+    }
+    .selnfo_ad, .store_types {
+        display: flex;
+    }
+#disp_med_scr, .ad_prod {
+    display: none;
+}
+.naw_store_tools, .sel_info_types, .selnfo_ad, .ad_prod, .store_types {
+    width: 100%;
+    column-gap: 10px;
+}
+.sel_info {
+    width: 70%;
+}
+.ad {
+    width: 30%
+}
+.naw {
+    height: 150px;
+}
+.store,.tools {
+    width: 50%;
+}
 
 
 
