@@ -1,0 +1,37 @@
+body div {
+    /*background: #d9d9d9;*/
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+.flex {
+    display: flex;
+    column-gap: 10px;
+}
+.block {
+    display: block;
+}
+
+.height200 {
+    height: 200px;
+}
+.height400 {
+    height: 400px;
+}
+.width75 {
+    width: 75%;
+}
+.width50 {
+    width: 50%;
+}
+.width33 {
+    width: 33%;
+
+}
+.height200,.height400 {
+    background: #d9d9d9;
+
+}
+.width25 {
+width: 25%;
+}
