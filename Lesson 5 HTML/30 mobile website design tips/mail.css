@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+}
+.warp, .naw_store_tools,.sel_info_types,.ad_prod {
+    display: block;
+    }
+
+.logo,.header,.naw,.store,.tools,.sel_info,.types,.ad,.prod,.footer {
+    background: #676767;
+    margin-bottom: 10px;
+}
+.log_header,.center {
+    display: flex;
+    column-gap: 10px;
+    box-sizing: border-box;
+}
+.log_header > div {
+    height: 100px;
+
+}
+.logo, .naw_store_tools,.ad_prod {
+    width: 25%;
+}
+.header{
+    width: 75%;
+}
+.naw, .types,.prod {
+    height: 500px;
+}
+.store,.tools {
+   height: 100px;
+}
+.sel_info_types {
+    width: 50%;
+}
+.sel_info,.ad,.footer {
+    height: 210px;
+}
+.footer {
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .log_header {
+        column-gap: 1px;
+    }
+
+
+
+}
+
