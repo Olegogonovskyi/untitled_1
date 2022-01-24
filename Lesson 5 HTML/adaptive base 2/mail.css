@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+}
+.a,.b,.h {
+    margin-bottom: 10px;
+}
+.a, .lotofb {
+    display: block;
+}
+.bbb,.bh {
+    display: flex;
+    column-gap: 10px;
+}
+.a,.b,.h {
+    background: #d9d9d9;
+}
+.a,.b {
+    height: 150px;
+}
+.a {
+    width: 100%;
+}
+.b {
+    width: 33%;
+}
+.lotofb {
+    width: 75%;
+}
+.h {
+    width: 25%;
+    height: 310px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+
+    .bh {
+        flex-direction: column;
+    }
+    .lotofb,.h {
+        width: 100%;
+    }
+}
