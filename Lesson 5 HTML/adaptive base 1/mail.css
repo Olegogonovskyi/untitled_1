@@ -1,55 +1,43 @@
-body div {
-    margin-bottom: 10px;
-    box-sizing: border-box;
-
+body {
+    margin: 10px;
 }
-.flex {
+.warp, .bc {
+    display: block;
+}
+.a,.b,.c,.f {
+    background: #d9d9d9;
+    margin-bottom: 10px;
+}
+.a,.b,.c {
+    height: 200px;
+}
+.a {
+    width: 100%;
+}
+.fbc, .ccc {
     display: flex;
     column-gap: 10px;
 }
-.block {
-    display: block;
-}
-
-.height200 {
-    height: 200px;
-}
-
-.height400 {
-    height: 410px;
-}
-.width75 {
+.bc {
     width: 75%;
 }
-.width50 {
-    width: 50%;
+.f {
+    width: 25%;
 }
-.width33 {
+.c {
     width: 33%;
-
 }
-.height200,.height400 {
-    background: #d9d9d9;
-
-}
-.width25 {
-width: 25%;
-}
-
 @media screen and (min-width: 0px) and (max-width: 992px) {
-body {
-    display: block;
-}
-    .height200 > div {
-    display:block;
-
-}
-.block.width75 {
-    width: 100%;
-}
-.height200 {
-    width: 100%;
-}
-
-
+   .b {
+       height: 400px;
+   }
+    .fbc {
+        flex-direction: column;
+    }
+    .bc, .f {
+        width: 100%;
+    }
+    .f {
+        height: 200px;
+    }
 }
