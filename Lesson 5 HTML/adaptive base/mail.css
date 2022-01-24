@@ -1,0 +1,47 @@
+body {
+    margin: 10px;
+}
+.warp {
+    display: block;
+    row-gap: 10px;
+
+}
+.a {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.a, .b, .c {
+    background: #d9d9d9;
+}
+
+.bc {
+    display: flex;
+    column-gap: 10px;
+}
+.b, .c {
+    height: 300px;
+}
+
+.b {
+    width: 75%;
+}
+.c {
+    width: 25%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 992px) {
+    .bc {
+        display: block;
+    }
+    .a,.b,.c {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+.a,.c {
+    height: 100px;
+}
+.b {
+    height: 300px;
+}
+}
