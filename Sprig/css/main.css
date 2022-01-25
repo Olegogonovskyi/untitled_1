@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
@@ -61,11 +63,13 @@ color: var(--black);
     font-size: 60px;
     line-height: 64px;
     margin: 154px 147px 32px;
+    color: var(--black);
 }
 .header_content_txt {
     font-size: 22px;
     line-height: 32px;
     margin: 0 147px 38px;
+    color: #375361;
 }
 .header_butn {
     margin: 0 147px
