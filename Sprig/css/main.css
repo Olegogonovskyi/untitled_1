@@ -235,6 +235,7 @@ z-index: 1;
     font-size: 34px;
     line-height: 40px;
     margin-top: 23px;
+    letter-spacing: 0.34px;
 }
 .logo_and_tex p {
     color: #375361;
@@ -261,7 +262,9 @@ z-index: 1;
     color: #61757E;
     padding: 3px 8px 4px;
     border: 1px solid #E7EAEB;
-    text-align: left;
+    /*text-align: left;*/
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 
 }
 .yellow_little_btn {
