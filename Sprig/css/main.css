@@ -5,17 +5,16 @@
     margin: 0;
     padding: 0;
 }
-body {
-    margin: 0;
-}
 .wrap {
-    max-width: 1400px;
+    max-width: 1334px;
     margin: 0 32px;
+    /*box-sizing: border-box;*/
+
 
 }
 :root { --black:#0B2330; --yellow: #F9C600}
 .top_bar, .Naw_header_categories_left, .Naw_header_categories_right,
-.header_butn, .Main_cont_logo_companies
+.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn
 {
     display: flex;
     align-items: center;
@@ -32,7 +31,7 @@ color: var(--black);
     text-decoration: none;
 }
 .top_bar {
-    margin: 10px 0 0 10px;
+    /*margin: 10px 0 0 10px;*/
     justify-content:space-between;
 }
 .Naw_header_categories_right {
@@ -67,7 +66,7 @@ color: var(--black);
     column-gap: 16px;
 }
 .header_content {
-    align-items: flex-start;
+    /*align-items: flex-end;*/
 }
 
 .header_content_h1 {
@@ -90,10 +89,10 @@ color: var(--black);
     max-width: 50%;
     /*margin: 189px;*/
 }
-.header_image_back {
-    max-width: 450px;
-    min-width: 50%;
-}
+/*.header_image_back {*/
+/*    max-width: 450px;*/
+/*    min-width: 50%;*/
+/*}*/
 
 /*.header_image_front {*/
 /*    position: relative;*/
@@ -101,7 +100,11 @@ color: var(--black);
 /*}*/
 
 .header_image_back  {
+    /*display: flex;*/
+    max-width: 450px;
+    min-width: 50%;
     position: absolute;
+    /*justify-content: flex-end;*/
     /*right: -130px;*/
     max-height: 886px;
     /*width: 600px;*/
@@ -114,8 +117,11 @@ color: var(--black);
 }
 .header_image_bottom {
     position: absolute;
-    right: 0px;
+    right: 0;
     top: 850px;
+}
+.main_container  {
+    margin: 445px 32px 0 32px;
 }
 .wrap_maincont_comp {
     margin-top: 445px;
@@ -131,4 +137,39 @@ color: var(--black);
     justify-content: center;
     column-gap: 83px;
     margin-top: 59px;
+}
+.green_box {
+    max-width: 1376px;
+    height: 494px;
+    border-radius: 10px;
+    background: #51CEBC;
+    margin-top: 192px;
+
+}
+.green_box_texts {
+    margin: 114px 121px 161px 20px;
+}
+.green_box_h {
+    font-size: 34px;
+    line-height: 40px;
+    margin-bottom:  21px;
+}
+.green_box_txt {
+    font-size: 22px;
+    line-height: 32px;
+
+}
+.txt_under_green_box {
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin: 191px 365px 57px;
+}
+.img_centr {
+    display: block;
+    margin: 0 auto 127px;
+}
+
+.second_yellow_btn {
+    justify-content: center;
 }
