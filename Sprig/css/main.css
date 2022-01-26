@@ -112,6 +112,11 @@ color: var(--black);
     top: 172px;
     right: 50px;
 }
+.header_image_bottom {
+    position: absolute;
+    right: 0px;
+    top: 850px;
+}
 .wrap_maincont_comp {
     margin-top: 445px;
 }
@@ -120,6 +125,7 @@ color: var(--black);
     line-height: 48px;
     text-align: center;
     margin: 0 400px;
+    color: var(--black);
 }
 .Main_cont_logo_companies {
     justify-content: center;
