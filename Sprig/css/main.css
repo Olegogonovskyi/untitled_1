@@ -18,7 +18,7 @@
 :root { --black:#0B2330; --yellow: #F9C600}
 
 .top_bar, .Naw_header_categories_left, .Naw_header_categories_right,
-.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard, .integrations_block, .case_study_blok, .yellow_box_logo_name,.footer_btn {
+.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard, .integrations_block, .case_study_blok, .yellow_box_logo_name,.footer_btn,.Footer_recta {
     display: flex;
     align-items: center;
 }
@@ -408,9 +408,12 @@ width: 562px;
     line-height: 28px;
     color: #2F3F48;
 }
+.footer_wrap{
+    background: var(--black);
+}
 .footer_up {
     display: block;
-    background: var(--black);
+    /*background: var(--black);*/
     padding-top: 53px;
     padding-bottom: 215px;
     margin-top: 46px;
@@ -436,9 +439,12 @@ width: 562px;
     justify-content: center;
     padding-top: 36px;
 }
-.Footer_recta {
+.Footer_recta div {
     width: 1376px;
     height: 1px;
     background: #375361;
 
+}
+.Footer_recta {
+    justify-content: center;
 }
