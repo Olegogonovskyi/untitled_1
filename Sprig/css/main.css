@@ -18,7 +18,7 @@
 :root { --black:#0B2330; --yellow: #F9C600}
 
 .top_bar, .Naw_header_categories_left, .Naw_header_categories_right,
-.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard, .integrations_block, .case_study_blok, .yellow_box_logo_name {
+.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard, .integrations_block, .case_study_blok, .yellow_box_logo_name,.footer_btn {
     display: flex;
     align-items: center;
 }
@@ -208,7 +208,7 @@ z-index: 1;
     font-size: 42px;
     line-height: 48px;
     padding-right: 193px;
-    margin: 103px 0px 39px 136px;
+    margin: 103px 0 39px 136px;
 
 }
 .Txt_violet_card p {
@@ -295,7 +295,7 @@ z-index: 1;
     /*box-sizing: border-box;*/
 
 }
-.arrow_cont_p, .text_button p, .case_study_button_txt p,  {
+.arrow_cont_p, .text_button p, .case_study_button_txt p {
     font-size: 14px;
     line-height: 24px;
     color: #6A7981;
@@ -407,4 +407,38 @@ width: 562px;
     font-size: 17px;
     line-height: 28px;
     color: #2F3F48;
+}
+.footer_up {
+    display: block;
+    background: var(--black);
+    padding-top: 53px;
+    padding-bottom: 215px;
+    margin-top: 46px;
+}
+.footer_up h1 {
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.42px;
+    color: white;
+}
+.footer_up p {
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    padding: 31px 399px 0 399px;
+}
+/*.footer_up button {*/
+/*    padding: 36px auto 95px;*/
+/*}*/
+.footer_btn {
+    justify-content: center;
+    padding-top: 36px;
+}
+.Footer_recta {
+    width: 1376px;
+    height: 1px;
+    background: #375361;
+
 }
