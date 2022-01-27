@@ -1,3 +1,6 @@
+/*body {*/
+/*    max-width: 1440px;*/
+/*}*/
 * {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -7,15 +10,15 @@
     color: var(--black);
 }
 .wrap {
-    max-width: 1334px;
+    /*width: 1334px;*/
     margin: 0 32px;
     box-sizing: border-box;
 }
 
 :root { --black:#0B2330; --yellow: #F9C600}
+
 .top_bar, .Naw_header_categories_left, .Naw_header_categories_right,
-.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard
-{
+.header_butn, .Main_cont_logo_companies, .green_box, .second_yellow_btn, .img_card, .ar_im_acard, .integrations_block, .case_study_blok, .yellow_box_logo_name {
     display: flex;
     align-items: center;
 }
@@ -28,6 +31,7 @@
    font-size: 16px;
     line-height: 24px;
     text-decoration: none;
+    color: #000000;
 }
 .top_bar {
     /*margin: 10px 0 0 10px;*/
@@ -136,12 +140,18 @@
     column-gap: 83px;
     margin-top: 59px;
 }
+/*.green_box_fig {*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+
+/*}*/
 .green_box {
     max-width: 1376px;
     height: 494px;
     border-radius: 10px;
     background: #51CEBC;
     margin-top: 192px;
+
 
 }
 .green_box_texts {
@@ -190,12 +200,15 @@
 .img_card {
         position: absolute;
 z-index: 1;
+    width: 1260px;
+    height: 537px;
 
 }
 .Txt_violet_card h2 {
     font-size: 42px;
     line-height: 48px;
-    margin: 103px 193px 39px 136px;
+    padding-right: 193px;
+    margin: 103px 0px 39px 136px;
 
 }
 .Txt_violet_card p {
@@ -253,6 +266,7 @@ z-index: 1;
 .buttons_bottom_news {
     display: flex;
     column-gap: 8px;
+    margin-top: 18px;
     /*margin-left: 148px;*/
 }
 .little_btn {
@@ -273,15 +287,15 @@ z-index: 1;
     color: var(--black);
 }
 .arrow_cont {
-    width: 1440px;
+    width: 100%;
     height: 960px;
     margin: 152px 0 160px;
     background: #F2EDE7;
     padding: 95px 122px;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
 
 }
-.arrow_cont_p {
+.arrow_cont_p, .text_button p, .case_study_button_txt p,  {
     font-size: 14px;
     line-height: 24px;
     color: #6A7981;
@@ -324,4 +338,73 @@ z-index: 1;
 }
 .acord_p3 {
     margin: 35px 0 23px;
+}
+.text_button p,.case_study_button_txt p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #375361;
+}
+.integrations_block h3 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.34px;
+}
+.integrations_block {
+    padding: 0 0 240px 148px;
+    column-gap: 183px;
+}
+.case_study_blok {
+    width: 100%;
+    background: #F2EDE7
+;
+}
+.case_study_button_txt {
+width: 562px;
+    height: 584px;
+    padding: 80px 121px 198px 116px;
+}
+.case_study_button_txt h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 17px;
+}
+.case_study_button_txt p {
+    margin-top: 27px;
+}
+
+.case_study_button_txt button {
+    margin-top: 36px;
+}
+.yellow_box {
+    width: 794px;
+    height: 584px;
+    background: var(--yellow);
+}
+.yellow_box > img {
+    position: absolute;
+}
+.yellow_bx_tex_logo {
+    padding: 79px 121px 104px 115px;
+}
+.yellow_bx_tex_logo h1 {
+    font-size: 34px;
+    line-height: 40px;
+    color: #000000;
+}
+.yellow_box_logo_name {
+    margin-top: 81px;
+    column-gap: 24px;
+
+}
+.yellow_box_logo_name p {
+    margin: 0;
+}
+.yellow_logo_mane_job_p1 {
+    font-size: 16px;
+    line-height: 24px;
+}
+.yellow_logo_mane_job_p2 {
+    font-size: 17px;
+    line-height: 28px;
+    color: #2F3F48;
 }
