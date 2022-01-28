@@ -107,11 +107,11 @@
     margin-top: 59px;
 }
 .green_box {
-    min-width: 1376px;
+    max-width: 1376px;
     height: 494px;
     border-radius: 10px;
     background: #51CEBC;
-    /*margin-top: 192px;*/
+    justify-content: space-around;
     margin: 192px auto 0;
 
 
@@ -146,7 +146,7 @@
 }
 .violet_rec {
     height: 537px;
-    width: 1400px;
+    width: 1260px;
     background: #BD78F0;
     margin-left: 100px;
     margin-right: 32px;
@@ -310,6 +310,7 @@ z-index: 1;
     column-gap: 183px;
     }
 .case_study_blok {
+    /*margin: 0 32px 0 32px;*/
     width: 100%;
     background: #F2EDE7;
     justify-content: space-between;
