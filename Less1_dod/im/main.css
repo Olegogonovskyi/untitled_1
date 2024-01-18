@@ -1,3 +1,13 @@
 h1 {
     background: darksalmon;
 }
+h3 {
+    background: #6A7981;
+}
+
+.boat {
+    color: #4f4f4f;
+}
+.town_tex {
+    column-count: 3;
+}
