@@ -1,0 +1,12 @@
+.main_txt {
+    background: #6A7981;
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    transition: 200ms;
+}
+.main_txt:hover {
+    height: 500px;
+    transition: 3000ms;
+}
