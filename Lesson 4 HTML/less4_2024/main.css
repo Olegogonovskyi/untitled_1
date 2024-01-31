@@ -1,0 +1,24 @@
+body > div {
+    height: 400px;
+}
+.col_db {
+    background: #292b2e;
+}
+
+.height33{
+    height: 33%;
+    background: #4486dd;
+    display: flex;
+}
+.block {
+    display: block;
+}
+.box-sizing {
+    box-sizing: border-box;
+}
+.width {
+    width: 800px;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+

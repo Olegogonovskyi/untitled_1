@@ -4,12 +4,19 @@
     flex-wrap: wrap;
     row-gap: 10px;
 }
+
+.monster:nth-child(2n) {
+    background: #e57954;
+/*.wrap :nth-child(4) {*/
+/*    background: #e57954;*/
+}
 .wrap,.monster,.left,.write {
     display: flex;
     min-height: 100px;
     align-items: center;
 }
 .monster {
+    /*background: #6bba67;*/
     border: 3px solid #0B2330;
     column-gap: 10px;
         width: 200px;
@@ -23,7 +30,7 @@
 }
 .left > p,h2 {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     padding: 10px;
 }
 .skillsbox {
@@ -38,4 +45,7 @@
     border-radius: 50%;
     position: relative;
     right: 50%;
+}
+.one:nth-child(2n+4) {
+    background: #7ccce3;
 }
