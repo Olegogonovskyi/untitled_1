@@ -1,24 +1,33 @@
 body > div {
-    height: 400px;
-}
-.col_db {
-    background: #292b2e;
+    height: 500px;
 }
 
-.height33{
-    height: 33%;
-    background: #4486dd;
-    display: flex;
+.width {
+    width: 400px;
 }
-.block {
-    display: block;
-}
-.box-sizing {
+.bor-box {
     box-sizing: border-box;
 }
-.width {
-    width: 800px;
-    column-gap: 20px;
-    padding-bottom: 20px;
-}
+.disp-block {
+    display: block;
 
+}
+.darkBlue {
+    background: #2269bb;
+    width: 33.3%;
+
+}
+.blue {
+    background: #1c395d;
+}
+.flex {
+    display: flex;
+    column-gap: 10px;
+
+}
+.height50 {
+    height: 50%;
+}
+.marg10 {
+    margin: 10px;
+}
